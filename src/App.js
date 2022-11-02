@@ -12,7 +12,7 @@ function App() {
 const [query ,setQuery]=useState('')
 const [weather,setWeather]=useState({})
 
-const search = evt =>{
+const search =async (evt) =>{
   if (evt.key ==="Enter"){
      fetch(`${api.base}weather?q=${query}&units=metric&APPID=${api.key}`)
         .then(res => res.json())

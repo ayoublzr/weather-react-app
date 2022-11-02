@@ -7,9 +7,10 @@
   font-family:'montseratt',sans-serif ;
  }
  .app{
-  background-image: url('./picture/cold-bg.jpg');
+  background-image: url('./picture/clear.jpg');
   background-size:cover ;
   background-position: bottom;
+  background-repeat: no-repeat;
   transition: 0.4 ease ;
  }
 
@@ -19,7 +20,7 @@ main{
   padding: 25px;
 }
 .app.warm{
-  background-image: url('./picture/warm-bg.jpg');
+  background-image: url('./picture/hot.jpg');
 }
 .search-box{
   width: 100%;
